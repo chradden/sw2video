@@ -1,14 +1,9 @@
 {
   "name": "ColorizeAnimateApp",
-  "image": "mcr.microsoft.com/devcontainers/python:3.9",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  "build": {
+    "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "apt-get update && apt-get install -y libgl1 && pip install -r requirements.txt",
-  "customizations": {
-    "vscode": {
-      "settings": {},
-      "extensions": ["ms-python.python"]
-    }
-  }
+  "settings": {},
+  "extensions": ["ms-python.python"],
+  "postCreateCommand": ""
 }
