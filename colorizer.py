@@ -1,4 +1,8 @@
 import os
+import sys
+import os
+sys.path.append(os.path.abspath("DeOldify"))
+
 from deoldify.visualize import get_image_colorizer
 
 # DeOldify erwartet, dass du im DeOldify-Verzeichnis arbeitest

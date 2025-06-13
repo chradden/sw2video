@@ -19,10 +19,16 @@ cd colorize-animate-app
 
 pip install -r requirements.txt
 
+pip install -e DeOldify
+
 
 ### 3. Setup-Skripte ausführen (nur beim ersten Mal)
 
 python setup_deoldify.py
+
+
+python3 -m pip install --upgrade pip setuptools wheel
+
 python setup_firstorder.py
 
 Diese Befehle laden: 
