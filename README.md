@@ -10,7 +10,7 @@ Diese App verwandelt alte Schwarz-Weiß-Bilder in kolorierte Videos mit lebensec
 
 ### 1. Projekt klonen und öffnen
 
-```bash
+
 git clone https://github.com/dein-benutzername/colorize-animate-app.git
 cd colorize-animate-app
 
