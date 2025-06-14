@@ -1,9 +1,9 @@
 {
   "name": "ColorizeAnimateApp",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "settings": {},
-  "extensions": ["ms-python.python"],
-  "postCreateCommand": ""
+  "image": "ghcr.io/chradden/sw2video:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
 }
